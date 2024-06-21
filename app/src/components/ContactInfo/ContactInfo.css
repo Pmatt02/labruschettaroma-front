@@ -1,0 +1,69 @@
+@import url('https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css');
+
+.contact-info-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.contact-header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.contact-details {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    position: relative;
+}
+
+.numbers {
+    /* display: flex; */
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.icon{
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.contact-row {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.email, .address {
+    width: 45%;
+}
+
+.email {
+    text-align: center;
+}
+
+.address {
+    text-align: center;
+}
+
+.line {
+    /* position: absolute; */
+    background-color: black;
+}
+
+.vertical {
+    height: 80px;
+    width: 2px;
+    top: 45%;
+}
+  
+.horizontal {
+    height: 2px;
+    width: 80%;
+    top: 50px;
+}
+  

@@ -1,0 +1,22 @@
+.box {
+    display: flex;
+    position: sticky;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    height: 60px;
+    background-color: #f8f8f8;
+}
+
+.logo {
+    flex: 1;
+    display: flex;
+    align-items: center;
+}
+
+.navbar {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}

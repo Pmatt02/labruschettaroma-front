@@ -1,0 +1,40 @@
+.gallery-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  margin: 20px;
+}
+
+.gallery-image {
+  max-width: 80%;
+  height: auto;
+  border: 2px solid #ccc;
+  border-radius: 10px;
+}
+
+.arrow {
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  border: none;
+  width: 40px;
+  padding: 10px;
+  cursor: pointer;
+  font-size: 24px;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 1;
+}
+
+.left-arrow {
+  left: 10px;
+}
+
+.right-arrow {
+  right: 10px;
+}
+
+.arrow:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
