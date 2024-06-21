@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
-// import Header from '../../components/Header/Header';
 import './home.css';
 import Gallery from '../../components/Gallery/Gallery';
 import Image from '../../components/Image/Image';

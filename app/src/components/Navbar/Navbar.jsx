@@ -15,7 +15,6 @@ const Navbar = () => {
       document.body.classList.remove('menu-open');
     }
 
-    // Cleanup function to remove the class when the component is unmounted
     return () => {
       document.body.classList.remove('menu-open');
     };

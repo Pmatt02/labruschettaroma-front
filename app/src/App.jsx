@@ -1,5 +1,5 @@
 import React from 'react';
-// import './App.css';
+import './App.css';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Header from './components/Header/Header';
 
@@ -8,6 +8,7 @@ import Home from './pages/Home/home';
 import Menu from './pages/Menu/menu';
 import DoveSiamo from './pages/DoveSiamo/doveSiamo';
 import Contatti from './pages/Contatti/contatti';
+import Footer from './components/Footer/Footer';
 
 // per visualizzare l'header in tutte le pagine (children è il contenuto della pagina)
 function Layout({ children }) {
@@ -15,6 +16,7 @@ function Layout({ children }) {
     <div>
       <Header />
       <main>{children}</main>
+      <Footer />
     </div>
   );
 }
