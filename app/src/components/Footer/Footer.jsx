@@ -16,7 +16,7 @@ const Footer = () => {
                     <i className="bi bi-instagram"></i>
                 </a>
                 <a href="#" className="social-icon">
-                    <i class="fa fa-tripadvisor"></i>
+                    <i className="fa fa-tripadvisor"></i>
                 </a>
             </div>
         </div>
@@ -24,9 +24,9 @@ const Footer = () => {
         <div className="footer-section">
             <h2>Contatti</h2>
             <div className='contactInfo'>
-                <i class="bi bi-whatsapp"> 123-456-7890</i>
-                <i class="bi bi-telephone"> 123-456-7890</i>
-                <i class="bi bi-envelope"> ciao@labruschettaroma.com</i>
+                <i className="bi bi-whatsapp"> 123-456-7890</i>
+                <i className="bi bi-telephone"> 123-456-7890</i>
+                <i className="bi bi-envelope"> ciao@labruschettaroma.com</i>
             </div>
         </div>
 
@@ -45,7 +45,7 @@ const Footer = () => {
 
       </div>
       <div className="footer-bottom">
-        <img src="/path/to/logo.png" alt="Logo" className="footer-logo" />
+        <img src="" alt="Logo" className="footer-logo" />
         <p>&copy; {new Date().getFullYear()} La Bruschetta Roma</p>
       </div>
     </footer>

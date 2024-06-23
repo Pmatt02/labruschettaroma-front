@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
-import './Navbar.css';
+import './MobileNavbar.css';
 
-const Navbar = () => {
+const MobileNavbar = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   const toggleMenu = () => {
@@ -41,4 +41,4 @@ const Navbar = () => {
   );
 };
 
-export default Navbar;
+export default MobileNavbar;

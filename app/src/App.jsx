@@ -6,7 +6,6 @@ import Header from './components/Header/Header';
 // Import pages
 import Home from './pages/Home/home';
 import Menu from './pages/Menu/menu';
-import DoveSiamo from './pages/DoveSiamo/doveSiamo';
 import Contatti from './pages/Contatti/contatti';
 import Footer from './components/Footer/Footer';
 
@@ -27,7 +26,6 @@ function App() {
       <Routes>
         <Route path="/" element={<Layout><Home /></Layout>} />
         <Route path="/menu" element={<Layout><Menu /></Layout>} />
-        <Route path="/doveSiamo" element={<Layout><DoveSiamo /></Layout>} />
         <Route path="/contatti" element={<Layout><Contatti /></Layout>} />
         {/* <Route path="*" element={<NotFound />} /> */}
       </Routes>

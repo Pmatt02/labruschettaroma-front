@@ -14,17 +14,14 @@
 }
 
 .arrow {
-  background-color: rgba(0, 0, 0, 0.5);
-  color: white;
   border: none;
-  width: 40px;
-  padding: 10px;
   cursor: pointer;
-  font-size: 24px;
+  font-size: 30px;
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
-  z-index: 1;
+  /* z-index: 1; */
+  background: none;
 }
 
 .left-arrow {

@@ -28,7 +28,7 @@
   border-radius: 4px;
 }
 
-button {
+.submitButton {
   width: 40%;
   padding: 10px;
   background-color: #4CAF50;
@@ -40,7 +40,7 @@ button {
   padding: auto;
 }
 
-button:hover {
+.submitButton:hover {
   background-color: #45a049;
 }
   

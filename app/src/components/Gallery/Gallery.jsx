@@ -21,9 +21,7 @@ const Gallery = ({
 
   return (
     <div className="gallery-container">
-      <button onClick={goToPrevious} className="arrow left-arrow">
-        &lt;
-      </button>
+      <i onClick={goToPrevious} className="bi bi-arrow-left-circle arrow left-arrow" ></i>
       <Image imageLink={imageLinks[currentIndex]} />
       <button onClick={goToNext} className="arrow right-arrow">
         &gt;

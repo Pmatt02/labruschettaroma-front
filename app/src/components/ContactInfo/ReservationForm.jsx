@@ -88,7 +88,7 @@ const ReservationForm = () => {
       </div>
 
       <div style={{justifyContent: 'center', display: 'flex'}}>
-        <button type="submit">Prenota</button>
+        <button className='submitButton' type="submit">Prenota</button>
       </div>
     </form>
   );

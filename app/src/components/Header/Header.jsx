@@ -1,15 +1,15 @@
 import React from 'react';
-import Navbar from '../Navbar/Navbar';
+import MobileNavbar from '../Navbar/MobileNavbar';
 import './Header.css'
 
 const Header = () => {
     return(
-        <div className='box'>
-            <div className='logo'>
+        <div id='box'>
+            <div id='logo'>
                 <h3>ciao io sono il logo</h3>
             </div>
-            <div className='navbar'>
-                <Navbar />
+            <div id='navbar'>
+                <MobileNavbar />
             </div>
         </div>
     );
